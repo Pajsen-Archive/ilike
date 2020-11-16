@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "web-scraping": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

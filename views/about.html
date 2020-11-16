@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+  	var name = prompt("Please enter your name");
+    var style = prompt("Please enter your style");
+    var life = prompt("Please enter your life");
+    var URL = prompt("Please enter a url");
+  
+  
+    document.write("<br>Your name is: " + name);
+    document.write("<br> Your style is: " + style);
+    document.write("<br> Your life is: " + life);
+    document.write(`<br> The data that was enterd  ${name} ${style} ${life}`)
+    window.location.replace(`https://pajsen-media.github.io/` + URL);
+    console.log("you name is: " + name);
+}
+</script>
+
+</body>
+</html>
